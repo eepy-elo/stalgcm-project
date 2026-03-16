@@ -2,8 +2,6 @@
 
 Rule-based Filipino spell checking rules implemented in **LanguageTool** based on **Ortograpiyang Pambansa (OP)** and **Manwal sa Masinop na Pagsulat (MMP)**.
 
-Developed for **STALGCM – Advanced Algorithms and Complexities** at **De La Salle University**.
-
 ## Overview
 
 This project defines **three formal spelling rules** that detect incorrect Filipino spellings with **100% precision**.
