@@ -1,5 +1,3 @@
----
-
 # Filipino Spell Checker (LanguageTool Rules)
 
 Rule-based Filipino spell checking rules implemented in **LanguageTool** based on **Ortograpiyang Pambansa (OP)** and **Manwal sa Masinop na Pagsulat (MMP)**.
