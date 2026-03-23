@@ -1,0 +1,4 @@
+PSNS	Punctuation
+TGLG	Tagalog
+ENGL	English
+NPRO	Proper Nouns

@@ -1,0 +1,28 @@
+Run "Grammar Checker\LanguageTool-2.2\languagetool-standalone,jar"
+
+Paper(s) to cite:
+
+LanguageTool
+Daniel Naber
+(2003) A Rule-Based Style and Grammar Checker
+Diploma Thesis, University of Bielefeld
+Available online: http://danielnaber.de/languagetool/download/style_and_grammar_checker.pdf
+
+Tagalog Component
+Nathaniel Oco, Allan Borra
+(2011) A Grammar Checker for Tagalog using LanguageTool
+Proceedings of the 9th Workshop on Asian Language Resources, pp. 2-9.
+Available online: http://www.aclweb.org/anthology/W/W11/W11-3402.pdf
+
+Nathaniel Oco, Leif Romeritch Syliongka, Joel Ilao, and Rachel Edita Roxas
+(2014) N-gram based Language Identification and Rule-based Grammar Checking
+Proceedings of the 14th Philippine Computing Science Congress, pp 244-250.
+
+Affixes
+Oco, N., Roxas, R.E.
+(2012) Pattern matching refinements to dictionary-based code-switching point detection
+Proceedings of the 26th Pacific Asia Conference on Language, Information and Computation, PACLIC 2012, pp. 229-236. 
+Available online: http://aclweb.org/anthology/Y/Y12/Y12-1024.pdf
+
+LanguageTool:
+https://www.languagetool.org/
