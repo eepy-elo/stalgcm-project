@@ -16,7 +16,7 @@
 				</marker>
 			</pattern>
 			<message>Do you mean <suggestion><match no="1"/><match no="3"/></suggestion>?</message>
-			<short>Adjacent Reduplications</short>
+			<short>Adjacent Reduplication</short>
 
 			<example correction="paruparo" type="incorrect">
 				Tignan mo ang mga <marker>paru-paro</marker>.</example>
@@ -58,7 +58,7 @@
 			<message>
 				Do you mean <suggestion><match no="1" regexp_match="(sa)(yo(?:ng)?|kin(?:g)?|tin(?:g)?|min(?:g)?)" regexp_replace="$1 '$2"/></suggestion>?
 			</message>
-			<short>Possesive Pronoun Contractions</short>
+			<short>Possesive Pronoun Contraction</short>
 
 			<example correction="sa 'yo" type="incorrect">
 				Para <marker>sayo</marker> ang laban na ito.
@@ -66,5 +66,5 @@
 			<example type="correct">Para sa 'yo ang laban na ito.</example>
 		</rule>
 	</category>
-	
+
 </rules>
