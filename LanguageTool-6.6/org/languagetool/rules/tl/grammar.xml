@@ -52,6 +52,17 @@
 	<!-- RULE 3 -->
 	<category id="APOSTROPHE" name="Possesive Pronoun Contractions">
 		<rule id="APOSTROPHE_PRONOUN" name="Apostrophe Pronoun">
+			<antipattern case_sensitive="no">
+				<token regexp="yes">ang</token>
+				<token>satin</token>
+			</antipattern>
+
+			<antipattern case_sensitive="no">
+				<token>satin</token>
+				<token>na</token>
+				<token regexp="yes">tela|damit|gown|bestida|blouse|palda|ribbon|laso|unan|kumot|kurtina</token>
+			</antipattern>
+
 			<pattern case_sensitive="no">
 				<token regexp="yes">(sa)(yo(?:ng)?|kin(?:g)?|tin(?:g)?|min(?:g)?)</token>
 			</pattern>
