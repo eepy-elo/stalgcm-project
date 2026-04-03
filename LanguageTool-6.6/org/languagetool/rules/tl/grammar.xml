@@ -35,7 +35,7 @@
 		<rule id="DE_SPANISH" name="De-[Spanish Word]">
 			<pattern case_sensitive="no">
 				<marker>
-                    <token regexp="yes">(de)(bote|lata|kolor|mano|bola)</token>
+                    <token regexp="yes">(de)(bote|lata|kolor|mano|bola|kahon)</token>
                 </marker>
 			</pattern>
 			<message>
