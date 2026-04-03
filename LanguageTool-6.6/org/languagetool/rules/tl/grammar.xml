@@ -62,7 +62,7 @@
 
 	<!-- RULE 2 -->
 	<category id="SPANISH" name="Filipino-Spanish Words">
-		<rule id="DE_SPANISH" name="De-[Spanish Word]">
+		<rule id="DE_PREFIX_HYPHEN" name="De Prefix">
 			<pattern case_sensitive="no">
 				<marker>
                     <token regexp="yes">(de)(bote|lata|kolor|mano|bola)</token>
