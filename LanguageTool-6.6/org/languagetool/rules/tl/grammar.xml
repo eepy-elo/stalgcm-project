@@ -8,36 +8,36 @@
 	<!-- RULE 1 -->
 	<category id="ADJ_REDUPLICATION" name="Adjacent Reduplications">
 		<rule id="XU-XO" name="Xu-Xo (XuXo)">
-			<antipattern>
+			<antipattern case_sensitive="no">
 				<token>paru</token>
 				<token>-</token>
 				<token regexp="yes">gamo|salo|balo|halo</token>
 			</antipattern>
 
-			<antipattern>
+			<antipattern case_sensitive="no">
 				<token>gamu</token>
 				<token>-</token>
-				<token regexp="yes">paro|salo|baro|halo</token>
+				<token regexp="yes">paro|salo|balo|halo</token>
 			</antipattern>
 
-			<antipattern>
+			<antipattern case_sensitive="no">
 				<token>salu</token>
 				<token>-</token>
 				<token regexp="yes">paro|gamo|balo|halo</token>
 			</antipattern>
 
-			<antipattern>
+			<antipattern case_sensitive="no">
 				<token>balu</token>
 				<token>-</token>
 				<token regexp="yes">paro|gamo|salo|halo</token>
 			</antipattern>
 
-			<antipattern>
+			<antipattern case_sensitive="no">
 				<token>halu</token>
 				<token>-</token>
 				<token regexp="yes">paro|gamo|salo|balo</token>
 			</antipattern>
-			
+
 			<pattern case_sensitive="no">
 				<marker>
 					<token regexp="yes">paru|gamu|salu|balu|halu</token>
