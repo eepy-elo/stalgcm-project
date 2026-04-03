@@ -64,10 +64,10 @@
 			</antipattern>
 
 			<pattern case_sensitive="no">
-				<token regexp="yes">(sa)(yo(?:ng)?|kin(?:g)?|tin(?:g)?|min(?:g)?)</token>
+				<token regexp="yes">(?i)(sa)(yo(?:ng)?|kin(?:g)?|tin(?:g)?|min(?:g)?)</token>
 			</pattern>
 			<message>
-				Do you mean <suggestion><match no="1" regexp_match="(sa)(yo(?:ng)?|kin(?:g)?|tin(?:g)?|min(?:g)?)" regexp_replace="$1 '$2"/></suggestion>?
+				Do you mean <suggestion><match no="1" regexp_match="(?i)(sa)(yo(?:ng)?|kin(?:g)?|tin(?:g)?|min(?:g)?)" regexp_replace="$1 '$2"/></suggestion>?
 			</message>
 			<short>Possesive Pronoun Contraction</short>
 
