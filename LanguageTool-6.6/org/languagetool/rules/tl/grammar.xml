@@ -83,7 +83,7 @@
 	<category id="APOSTROPHE" name="Possesive Pronoun Contractions">
 		<rule id="APOSTROPHE_PRONOUN" name="Apostrophe Pronoun">
 			<antipattern case_sensitive="no">
-				<token regexp="yes">ang</token>
+				<token regexp="yes">[a-z]*ng</token>
 				<token>satin</token>
 			</antipattern>
 
